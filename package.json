@@ -6,7 +6,8 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node backend/index.js",
-    "client": "npm start --prefix frontend"
+    "client": "npm start --prefix frontend",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js"
   },
   "author": "Shut Vitalii",
   "license": "ISC",
