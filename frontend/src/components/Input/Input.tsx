@@ -4,7 +4,7 @@ import { Context } from "../../Context/Context";
 import { Messages } from "../enums";
 
 export const Input = () => {
-  const { checkNumber, message, setMessage, updateNumber, number } =
+  const { checkNumber, message, setMessage, updateNumber } =
     useContext(Context);
   const [inputValue, setInputValue] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);

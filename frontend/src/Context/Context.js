@@ -26,7 +26,7 @@ const ContextProvider = ({ children }) => {
   }
 
   const updateNumber = () => {
-    fetch('/api', {
+    fetch('https://vercel.com/v-shuts-projects/guess-number-server/api', {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

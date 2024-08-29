@@ -5,10 +5,10 @@ import { Input } from "./components/Input/Input.tsx";
 import { Context } from "./Context/Context";
 
 function App() {
-  const { message, setNumber, number } = useContext(Context);
+  const { message, setNumber } = useContext(Context);
 
   useEffect(() => {
-    fetch("/api")
+    fetch("https://guess-number-rosy.vercel.app/api")
       .then((response) => response.json())
       .then((response) => setNumber(response.randomNumber));
   }, [setNumber]);
