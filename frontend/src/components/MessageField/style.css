@@ -1,0 +1,12 @@
+.error-field {
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 10px;
+  width: 50vw;
+  height: 5vh;
+  margin-top: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  line-height: 5vh;
+  font-size: 3vh;
+  font-weight: 400;
+  color: cornsilk;
+}

@@ -1,0 +1,12 @@
+html {
+  background-color: cornsilk;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30vh;
+}
