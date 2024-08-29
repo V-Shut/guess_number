@@ -4,15 +4,7 @@ const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 3001;
 const HOST = 'localhost';
 
-const cors = require('cors');
-
 const app = express();
-
-app.use(cors({
-  origin: 'https://guess-number-nvu3.vercel.app',
-  methods: ['GET', 'PUT', 'POST'],
-  allowedHeaders: ['Content-Type'],
-}));
 
 app.use(bodyParser.json());
 
