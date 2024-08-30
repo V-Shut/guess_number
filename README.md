@@ -1,6 +1,7 @@
 # Guess Number
 
 The goal of this project is to create a game where a random number is generated on the server and the user must guess it. He can get 4 kinds of messages according to what he enters in the line
+
 This project runs the server and client simultaneously, using Express for the backend and the standard client in the `frontend` directory.
 
 ## Description
