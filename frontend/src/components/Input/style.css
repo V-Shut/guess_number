@@ -5,13 +5,13 @@
 }
 
 .textfield {
-  width: 35vw;
-  height: 5vw;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  width: 50vw;
+  height: 20vw;
+  border-top-left-radius: 6vw;
+  border-bottom-left-radius: 6vw;
   padding: 0;
   padding-left: 25px;
-  font-size: 3vw;
+  font-size: 9vw;
   border: 1px solid rgb(128, 128, 128);
   outline: none;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -20,17 +20,17 @@
 
 .send-button {
   text-align: center;
-  font-size: 3vw;
+  font-size: 5vw;
   font-weight: 600;
-  width: 15vw;
-  height: 5vw;
+  width: 20vw;
+  height: 20vw;
   padding: 0;
   cursor: pointer;
   border: 1px solid rgb(128, 128, 128);
   border-left: none;
   border-radius: 0;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-right-radius: 6vw;
+  border-bottom-right-radius: 6vw;
   text-transform: uppercase;
   background-color: #fff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
