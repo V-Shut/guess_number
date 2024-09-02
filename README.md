@@ -11,7 +11,7 @@ This project uses Express to create a backend server and supports running a fron
 The client is already bound to the server deployed on Vercel, the link settings can be changed in the App.js and Context.js files.
 
 [Telegram bot](https://t.me/random_digit_bot) is linked to [Vercel](https://vercel.com/v-shuts-projects/guess-number-client) project and updates automatically, so you need chenge git files only.
-Server deployed on [Vercel](https://vercel.com/v-shuts-projects/guess-number-server/api)
+Server deployed on [Vercel](https://vercel.com/v-shuts-projects/guess-number-server)
 
 ## How to install
 
